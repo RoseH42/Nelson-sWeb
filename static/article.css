@@ -313,7 +313,8 @@ section {
     }
 
     .article-meta .material-symbols-outlined,
-    .article-social .material-symbols-outlined {
+    .article-social .material-symbols-outlined,
+    .email .material-symbols-outlined {
         font-size: 20px;
     }
 
@@ -355,10 +356,19 @@ section {
         flex-shrink: 0;      /* 不被壓縮 */
     }
 
-    .form input {
+    .name-wrap,
+    .tel-wrap {
+        width: 100%;
+    }
+
+    .form-input {
         width: 100%;
         flex-wrap: nowrap;
+        padding: 8px 12px;
     }
+
+
+
 
 
 
